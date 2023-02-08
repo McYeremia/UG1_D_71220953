@@ -15,11 +15,13 @@ hasil=round((tugas+uts+uas)/2,0)
 
 print('--------- Total Nilai -------')
 print('Total Nilai yang didapat :', hasil)
-if hasil >= 85:
+if hasil >= 80:
     print('Total nilai dalam huruf: A')
-elif hasil >= 70:
+elif hasil >= 60:
     print('Total nilai dalam huruf: B')
-elif hasil >= 45:
+elif hasil >= 40:
     print('Total nilai dalam huruf: C')
-elif hasil >= 30:
+elif hasil >= 20:
     print('Total nilai dalam huruf: D')
+elif hasil >= 0:
+    print('Total nilai dalam huruf: E')
